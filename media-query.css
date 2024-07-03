@@ -532,7 +532,11 @@
     left: 35%;
 }
 
-
+.shop-by img{
+    padding-right: 5px;
+    width: 25vw;
+    height: 50vh;
+}
 
 }
 @media screen and (max-width: 665px){
@@ -678,6 +682,11 @@
 @media(max-width: 767px){
     .sidebar{
       width: 60%;
+    }
+    .shop-by img{
+        padding-right: 5px;
+        width: 21vw;
+        height: 40vh;
     }
   }
 
@@ -931,55 +940,9 @@
    
 
 }
-/* 
-.sidebar{
-    position: fixed;
-    top: 0%; 
-    right: 0%;
-    height: 70vh;
-    width: 250px;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(12px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    list-style: none;
-    display: none;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    z-index: 47777774;
-  }
-  .sidebar {
-    width: 100%;
-  }
-  .sidebar a{
-    width: 100%;
-    text-transform: uppercase;
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    padding: 9px;
-    
-  }
-  .menu-button{
-    display: none;
-  } */
 
   @media(max-width: 600px){
-    /* .hideOnMobile{
-      display: none;
-    }
-    .menu-button{
-      display: block;
-      z-index: 3333333;
-        position: absolute;
-        top: 0;
-        right: 3%;
-        margin-top: 3vw;
-    }
-    .sidebar{
-        width: 60%;
-    } */
+   
 
     
 #page4 {
@@ -1033,7 +996,31 @@
    width: 50vw;
    padding: 4vw;
 }
-
+#page5{
+    height: 65vh;
+    width: 100vw;
+}
+.shop-by{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: 0.1px;
+}
+.shop img{
+    height: 48vh;
+    width: 28vw;
+    padding: 12px;
+}
+.shop-2 {
+    margin-top: 0px;
+}
+.shop-3 {
+    margin-top: 0px;
+}
+#page6{
+    display: none;
+}
 
   }
 
@@ -1150,11 +1137,130 @@
        padding: 4vw;
     }
     
-
+    #page5{
+        height: 65vh;
+        width: 100vw;
+    }
+    .shop-by{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        overflow-x: scroll;
+        scrollbar-width: 0.1px;
+    }
+    .shop img{
+        height: 48vh;
+        width: 32vw;
+        padding: 12px;
+    }
+    .shop-2 {
+        margin-top: 0px;
+    }
+    .shop-3 {
+        margin-top: 0px;
+    }
+    #page6{
+        display: none;
+    }
 
   }
+
+  @media(max-width: 437px){
+    #page5{
+        height: 45vh;
+        width: 100vw;
+    }
+    .shop-by{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        overflow-x: scroll;
+        scrollbar-width: 0.1px;
+    }
+    .shop img{
+        height: 38vh;
+        width: 32vw;
+        padding: 12px;
+    }
+    .shop-2 {
+        margin-top: 0px;
+    }
+    .shop-3 {
+        margin-top: 0px;
+    }
+    #page6{
+        display: none;
+    }
+  }
+  @media(max-width: 397px){
+    #page5{
+        height: 35vh;
+        width: 100vw;
+    }
+    .shop-by{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        overflow-x: scroll;
+        scrollbar-width: 0.1px;
+    }
+    .shop img{
+        height: 28vh;
+        width: 32vw;
+        padding: 12px;
+    }
+    .shop-2 {
+        margin-top: 0px;
+    }
+    .shop-3 {
+        margin-top: 0px;
+    }
+    #page6{
+        display: none;
+    }
+  }
+
   @media(max-width: 767px){
     .sidebar{
       width: 60%;
     }
   }
+
+  @media(max-width:600px){
+   #page8{
+    height: 180vh;
+    width: 100vw;
+   }
+  
+    .container00{
+        height: 180vh !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-left: 2.5rem;
+    }
+    .dox{
+        /* margin-top: auto; */
+    }
+    #box01{
+        /* grid-area: 1/1/2/3; */
+        margin: 2%;
+    }
+    #box01 img{
+        height: auto;
+        width: 80vw;
+        margin-bottom: 4vw;
+    }
+    #B{
+        /* margin: 1%; */
+        margin-top: 0vh;
+        height: 35vh;
+        
+    }
+    #B img{
+        height:35vh;
+        width:40vw;
+    }
+    }
